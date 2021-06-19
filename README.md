@@ -17,7 +17,7 @@
 | `ICY-Genre` | Genre | String | Icecast 0.8+ |
 | `ICY-Notice1` | Notice 1 | String | Icecast 0.8.2+ |
 | `ICY-Notice2` | Notice 2 | String | Icecast 0.8.2+ |
-| `ICY-URL` | **U**niform **R**esource **L**ocator | Path | Icecast 0.8+ |
+| `ICY-URL` | URL | Path | Icecast 0.8+ |
 | `ICY-Pub` | Public | Boolean: `0` or `1` | Icecast 0.8+ |
 
 | Header | Description | Value | Supported in |
@@ -32,6 +32,7 @@
 | -- | -- | -- | -- |
 | `ICY-Caps` | Caps | ... | Icecast 1.3.12 |
 | `ICY-MetaInt` | Meta Interval | ... | Icecast 1.3.12 |
+| `ICY-MetaData` | Meta Data ... | Icecast 2.0.0 |
 
 ### Audiocast
 
@@ -60,10 +61,19 @@
 | `X-Audiocast-Type` | Type | ... | Icecast 1.3.12 |
 | `X-Audiocast-UDPPort` | UDP Port | ... | Icecast 1.3.12 |
 | `X-Audiocast-UDPSeqNr` | UDP Sequence Number | ... | Icecast 1.3.12 |
-| `X-Audiocast-URL` | **U**niform **R**esource **L**ocator | ... | Icecast 1.3.12 |
+| `X-Audiocast-URL` | URL | ... | Icecast 1.3.12 |
 | `X-Audiocast-YP-Error` | YellowPage Error | ... | Icecast 1.3.12 |
 | `X-Audiocast-YP-Id` | YellowPage Id | ... | Icecast 1.3.12 |
 
 ### Ice
 
-_TODO_
+| Header | Description | Value | Supported in |
+| -- | -- | -- | -- |
+| `Ice-Audio-Info` | Audio Info | ... | Icecast 2.0.0 |
+| `Ice-BitRate` | Bit Rate | ... | Icecast 2.0.0 |
+| `Ice-Description` | Description | ... | Icecast 2.0.0 |
+| `Ice-Genre` | Genre | ... | Icecast 2.0.0 |
+| `Ice-Name` | Name | ... | Icecast 2.0.0 |
+| `Ice-Password` | Password | ... | Icecast 2.0.0 |
+| `Ice-Public` | Public | ... | Icecast 2.0.0 |
+| `Ice-URL` | URL | ... | Icecast 2.0.0 |
