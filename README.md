@@ -32,7 +32,7 @@
 | -- | -- | -- | -- |
 | `ICY-Caps` | Caps | ... | Icecast 1.3.12 |
 | `ICY-MetaInt` | Meta Interval | ... | Icecast 1.3.12 |
-| `ICY-MetaData` | Meta Data ... | Icecast 2.0.0 |
+| `ICY-MetaData` | Meta Data | ... |Icecast 2.0.0 |
 
 ### Audiocast
 
