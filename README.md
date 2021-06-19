@@ -1,4 +1,4 @@
-# AudioCast
+# MediaCast
 
 ## Protocols
 
