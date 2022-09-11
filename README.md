@@ -1,6 +1,6 @@
 # MediaCast
 
-## Protocols
+## Protocol Headers
 
 | Name | Description | Header prefix |
 | -- | -- | -- |
